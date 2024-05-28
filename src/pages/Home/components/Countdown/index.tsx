@@ -1,7 +1,7 @@
 import { useContext, useEffect} from "react";
 import { CountdownContainer, Separator } from "./styles";
 import { differenceInSeconds } from "date-fns";
-import { CyclesContext } from "../..";
+import { CyclesContext } from "../../../../contexts/CyclesContext";
 
 //Prop Drilling: quando a gente tem MUITAS propriedades APENAS para comunicacao entre componentes
 //Para resolver isso utilizamos Context API(permite compartilhamento de info entre varios componentes ao mesmo tempo)
